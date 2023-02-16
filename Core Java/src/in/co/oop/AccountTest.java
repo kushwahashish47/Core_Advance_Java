@@ -14,7 +14,5 @@ public class AccountTest {
 		System.out.println(a.fundTransfer(1500.00));
 		System.out.println(a.payBill(500));
 		a.balance(1500);
-
 	}
-
 }
