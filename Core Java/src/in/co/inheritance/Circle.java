@@ -1,9 +1,9 @@
 package in.co.inheritance;
 
 public class Circle {
-	private static final int PI = 0;
+	private static final float PI = 3.14f;
 	private int radius;
-	private double area;
+	//private double area;
 	
 	public void setRadius(int radius){
 		this.radius = radius;
@@ -13,7 +13,7 @@ public class Circle {
 		
 	}
 	public double area () {
-		area = PI*radius*radius;
+		 double area = PI*getRadius()*getRadius();
 		return area;
 	}
 }

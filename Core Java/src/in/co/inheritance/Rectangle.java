@@ -1,11 +1,10 @@
 package in.co.inheritance;
 
-public class Rectangle {
+public class Rectangle extends Circle  {
 	private int length;
 	private int width;
 	private int area;
-	
-	
+
 	public void setLength(int length) {
 	this.length = length;
 	}
@@ -13,11 +12,17 @@ public class Rectangle {
 	public int getlength(){
 		return length;
 	}
-	public int width() {
+	
+	public int getWidth() {
 		return width;
 	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
 	public int area () {
-		area = length*width;
+		area = getlength()*getWidth();
 		return area;
 	}
 }

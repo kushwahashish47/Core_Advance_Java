@@ -6,7 +6,7 @@ public class Person {
 	private String name ;
 	private Date date;
 	private String address ;
-    private final static int AVG_AGE = 18;
+    public final static int AVG_AGE = 18;
 	
     public void setName(String name) {
 	 this.name = name; 
