@@ -3,7 +3,7 @@ package in.co.inheritance;
 public class Rectangle extends Circle  {
 	private int length;
 	private int width;
-	private int area;
+	private double area;
 
 	public void setLength(int length) {
 	this.length = length;
@@ -21,7 +21,7 @@ public class Rectangle extends Circle  {
 		this.width = width;
 	}
 
-	public int area () {
+	public double area () {
 		area = getlength()*getWidth();
 		return area;
 	}

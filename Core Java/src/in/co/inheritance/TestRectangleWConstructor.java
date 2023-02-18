@@ -4,11 +4,12 @@ public class TestRectangleWConstructor {
 
 	public static void main(String[] args) {
 		
-		 RectangleWConstructor tr = new RectangleWConstructor();
-		 RectangleWConstructor tr1 = new RectangleWConstructor(10);
-		 
-		 System.out.println(tr1.getLength());
-
+		 RectangleWConstruct r = new RectangleWConstruct();
+		 RectangleWConstruct r1 = new RectangleWConstruct(25,25);
+		
+		 System.out.println(r1.getLength());
+		 System.out.println(r1.getWidth());
+		 System.out.println(r1.area());
 	}
 
 }
