@@ -13,7 +13,7 @@ public class Shape {
 	public void setBorderWidth( int bwth) {
 		this.borderWidth= bwth;
 	}
-	public int getBorderWidth( int borderWidth) {
+	public int getBorderWidth() {
 		return borderWidth;
 	}
 }

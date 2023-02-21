@@ -7,10 +7,7 @@ public class HarmonicResultMethod {
 	while(number>0) {
 	s= s+ (float)1/number;
 	number--;
-	
 	}
-		
-	
  System.out.println(s);
 }
 }

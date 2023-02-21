@@ -1,9 +1,9 @@
 package in.co.inheritance;
 
-public class Circle {
+public class Circle extends Shape {
 	private static final float PI = 3.14f;
 	private int radius;
-	//private double area;
+	private double area;
 	
 	public void setRadius(int radius){
 		this.radius = radius;
