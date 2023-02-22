@@ -18,9 +18,8 @@ public class Businessman implements Richman,SocialWorker {
 	public void party() {
 		// TODO Auto-generated method stub	
 	}
-	private String name;
-	private String Address;
-	public void donation1() {
-		System.out.println();
-	}
+	public String name;
+	public String Address;
+	public void donation1() {}
+	
 }

@@ -10,6 +10,5 @@ public class TestInterface {
 	b.earnMoney();
 	b.helpToOthers();
 	
-	System.out.println(b.earnMoney());
 	}
 }
