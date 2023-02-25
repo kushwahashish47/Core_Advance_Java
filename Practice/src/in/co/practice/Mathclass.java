@@ -9,9 +9,6 @@ public class Mathclass {
 		System.out.println("Exp10  : "+ Math.exp(10));
 		System.out.println("Random Number : " + Math.random()*100);
 		System.out.println("Square Root : "+Math.sqrt(5));
-		
-	
-		
 	}
-
 }
+                // directly use Math. use to n number of operation

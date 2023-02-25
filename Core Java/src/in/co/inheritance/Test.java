@@ -1,11 +1,12 @@
 package in.co.inheritance;
 
-public class Test {
-	public static void main(String[] args) {
+public class Test {									// get check ki kisko extends karvana hai.. 
+	public static void main(String[] args) {		// doubt arised, check ones.
 		Circle c = new Circle(); 					//case1 when creating child object, we can use: parent methods and child method
 		c.setRadius(10);
 		c.setBorderWidth(5);
-		c.setColor("White");
+		c.setColor("White");						// generally 3 case: creating child object,creating parent object and
+													// parent holding reference of child
 		System.out.println(c.getRadius());
 		System.out.println(c.area());
 		System.out.println(c.getBorderWidth());
@@ -34,16 +35,6 @@ public class Test {
 		System.out.println(i.getBorderWidth());
 		System.out.println(i.area());
 	
-		Circle z = (Circle) new Shape();			// type cast second way of representation.
-		
-		
-		
-		
-		
-		
-		
-	
-	}
-	
-	
+		Circle z = (Circle) new Shape();			// type cast second way of representation.	
+	}	
 }

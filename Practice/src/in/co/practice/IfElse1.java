@@ -4,7 +4,7 @@ public class IfElse1 {
 
 	public static void main(String[] args) {
 
-		int money = 100;
+		int money = 200;
 
 		if (money >= 100) {
 

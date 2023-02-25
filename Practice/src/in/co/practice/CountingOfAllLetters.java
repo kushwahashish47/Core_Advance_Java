@@ -6,16 +6,14 @@ public class CountingOfAllLetters {
 
 		String name = "vijay dinanath chouhan";
 		int count = 0;
-		for (char j = 'a'; j <= 'z'; j++, count = 0) {
-
-			for (int i = 0; i < name.length(); i++) {
-				if (j == name.charAt(i)) {
+		for (char c = 'a'; c <= 'z'; c++, count = 0) {
+		for (int i = 0; i < name.length(); i++) {
+				if (c == name.charAt(i)) {
 					count++;
 				}
 			}
 			if (count != 0) {
-
-				System.out.println(j + "=" + count);
+				System.out.println(c + "=" + count);
 			}
 			// System.out.println(j);
 		}

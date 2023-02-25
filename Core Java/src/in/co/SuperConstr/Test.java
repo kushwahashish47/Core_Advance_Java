@@ -8,10 +8,6 @@ public class Test {
 	
 	String  s = e2.getName();
 	String s1 = e2.getAddress();
-	System.out.println(s+"\t"+s1);
-	
-	
-	
-	
+	System.out.println(s+"\t"+s1);	
 }
 }

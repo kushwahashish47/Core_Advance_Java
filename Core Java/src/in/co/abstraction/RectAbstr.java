@@ -23,9 +23,4 @@ public abstract class RectAbstr {
 		}
 
 		public abstract double area ();
-		
-	
-
-	
-
 }

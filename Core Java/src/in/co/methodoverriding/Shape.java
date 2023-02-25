@@ -16,4 +16,8 @@ public class Shape {
 	public int getBorderWidth() {
 		return borderWidth;
 	}
+	public double area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

@@ -7,7 +7,6 @@ public class WhileLoop {
 		int i = 1;
 		
 		while(i<11) {
-			
 			System.out.println(i*3);
 			
 			i++;

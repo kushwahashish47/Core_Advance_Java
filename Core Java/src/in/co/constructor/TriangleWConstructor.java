@@ -8,7 +8,7 @@ public class TriangleWConstructor {
 	public TriangleWConstructor() {
 		 System.out.println("Dafault constructor");
 	}
-	public void TriangleWConstrutor(int base , int height) {
+	public TriangleWConstructor(int base , int height) {
 		this.base = base;
 		this.height = height;	
 	}

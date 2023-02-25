@@ -6,7 +6,6 @@ public class LoopForEvenNumber {
 		for(int i=0;i<=20;i++) {
 			
 		System.out.println(i*2);
-		
 		}
 	}
 }

@@ -15,11 +15,7 @@ public class Switch {
 			break;
 			default:
 			
-			System.out.println("none of the above");
-			
-				
-		}
-		
+			System.out.println("none of the above");			
+		}	
 	}
-
 }

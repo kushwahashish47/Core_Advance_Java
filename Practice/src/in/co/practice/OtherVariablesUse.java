@@ -8,7 +8,7 @@ public class OtherVariablesUse {
 		System.out.println(c);
 		System.out.println(y-x);
 		
-		double a = 125256325632.2535;
+		double a = 125256325632.253522;
 		double b = 5532152565.255663;
 		System.out.println(a+b);
 		

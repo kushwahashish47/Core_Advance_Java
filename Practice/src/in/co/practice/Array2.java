@@ -5,10 +5,7 @@ public class Array2 {
 		char[] copyFrom = {'a','b','c','d','e','f','g','x','y'};
 		char[] copyTo = new char[3];
 		System.arraycopy(copyFrom, 2, copyTo, 0, 3);
-		System.out.println(copyTo);
-		
-		
-		
-	}
-
+		System.out.println(copyTo);	
+	}			
 }
+				// check it

@@ -8,10 +8,6 @@ public class ForLoop1To10addtion {
 			s = s + i;
 				
 		System.out.println("sum of one to ten is " + s);
-		
 		}
-		
 	}
-	
-
 }

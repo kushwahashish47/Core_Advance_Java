@@ -14,6 +14,10 @@ public class Person {
 		this.name = name;								// this.name and this.address can be written as 		
 		this.address = address;							// this(n,a) which means the same.
 		}
+	
+	public String getName() {
+		return name;
+	}
 	public Person(String n,String a, String p) {
 		name = n;										
 		address =a;
