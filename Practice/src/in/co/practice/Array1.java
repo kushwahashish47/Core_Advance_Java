@@ -10,6 +10,7 @@ package in.co.practice;
 		int z = number[4];							// if we want to perform further operations on the element,so we can hold 
 													// the element in other variable and then we can easily use it.
 		int t = x+y+z;								// compare with last 2nd line.
+		System.out.println("print particular element"+number[5]); // one another method.		
 		System.out.println(x);						
 		System.out.println(y);
 		System.out.println(z);

@@ -6,7 +6,7 @@ public class Test {
 	double sum =0.00;
 	Shape s1[] = new Shape[3];
 	
-	s1[0] = new Rectangle();			//Rectangle r = (Rectangle)new Shape(); can be?
+	s1[0] = new Rectangle();							//Rectangle r = (Rectangle)new Shape(); can be?
 	Rectangle r = (Rectangle)s1[0];
 	r.setLength(10);
 	r.setWidth(10);

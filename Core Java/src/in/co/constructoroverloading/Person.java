@@ -4,9 +4,9 @@ import java.util.Date;
 
 public class Person {
 
-	private String name = null;
-	private String address = null;
-	private String place = null;
+	private String name ;
+	private String address ;
+	private String place ;
 	
 	public Person() {}									// in this program,there are 3 constructor which is known 
 														//	constructor overloading
@@ -18,12 +18,14 @@ public class Person {
 	public String getName() {
 		return name;
 	}
+	public String getAddress() {
+		return address;
+	}
+	public String getPlace() {
+		return place;
+	}
 	public Person(String n,String a, String p) {
-		name = n;										
-		address =a;
+		this(n,a);
 		place = p;
 		}
 	}
-
-
-

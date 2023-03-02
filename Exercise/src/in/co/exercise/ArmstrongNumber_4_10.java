@@ -5,10 +5,10 @@ public class ArmstrongNumber_4_10 {
     	int number = 371;
     	int r;
     	int sum = 0 ;
-    	int  n = number;
+    	int  n = number;									// n too plays role like sum maybe
     	while(n>0){
     		r=n%10;
-    	sum = sum +(r*r*r);
+    	sum = sum +(r*r*r);									// here sum is used to hold previous result, i think
     	n = n/10;
     	}
     	if(sum == number) {

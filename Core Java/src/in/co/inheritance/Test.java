@@ -1,7 +1,7 @@
 package in.co.inheritance;
 
-public class Test {									// get check ki kisko extends karvana hai.. 
-	public static void main(String[] args) {		// doubt arised, check ones.
+public class Test {							
+	public static void main(String[] args) {		
 		Circle c = new Circle(); 					//case1 when creating child object, we can use: parent methods and child method
 		c.setRadius(10);
 		c.setBorderWidth(5);
@@ -12,13 +12,13 @@ public class Test {									// get check ki kisko extends karvana hai..
 		System.out.println(c.getBorderWidth());
 		System.out.println(c.getColor());
 	
-		Shape s = new Shape();						//case2 when creating parent object, we can't use child methods.only parents method we can use
-		s.setBorderWidth(12);
-		s.setColor("Black");
-		System.out.println(s.getBorderWidth());
-		System.out.println(s.getColor());
+//		Shape s = new Shape();						when creating parent object, we can't use child methods.only parents method we can use
+//		s.setBorderWidth(12);
+//		s.setColor("Black");
+//		System.out.println(s.getBorderWidth());
+//		System.out.println(s.getColor());
 	
-		Shape h = new Circle();						// parent object hold the reference of child ,or known as upcasting,
+		Shape h = new Circle();						//case2: parent object hold the reference of child ,or known as upcasting,
 		h.setBorderWidth(4);						//when creating parent object, we can't use child methods
 		h.setColor("Blue");
 		System.out.println(h.getBorderWidth());
@@ -36,5 +36,6 @@ public class Test {									// get check ki kisko extends karvana hai..
 		System.out.println(i.area());
 	
 		Circle z = (Circle) new Shape();			// type cast second way of representation.	
+
 	}	
 }
