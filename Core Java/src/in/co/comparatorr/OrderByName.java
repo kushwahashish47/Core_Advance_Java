@@ -14,12 +14,10 @@ public class OrderByName implements Comparator<Marksheet> {
 			return 1;
 		}
 	}
-	
 	public String toString() {
 		return null;
 		
 	}
-
 	@Override
 	public int compare(Marksheet m1, Marksheet m2) {	
 		return m1.name.compareTo(m2.name);
