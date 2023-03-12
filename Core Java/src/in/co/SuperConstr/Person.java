@@ -1,4 +1,4 @@
-package in.co.SuperConstr;
+package in.co.superconstr;
 
 import java.util.Date;
 

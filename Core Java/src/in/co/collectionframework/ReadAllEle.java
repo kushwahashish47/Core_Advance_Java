@@ -16,10 +16,6 @@ public static void main(String[] args) {
 		Object o =t.next();
 		System.out.println(o);
 	}	
-	 while(t.hasNext()) {
-		 Object object = (Object)t.next();
-		 System.out.println(object);
-	 }
 }
 
 }

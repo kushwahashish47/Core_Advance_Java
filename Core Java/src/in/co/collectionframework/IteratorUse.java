@@ -13,7 +13,7 @@ public static void main(String[] args) {								//gives value out of list,one by
 		
 	System.out.println(l);
 	
-		Iterator it = l.iterator();													     // can be used listIterator second m
+		Iterator it = l.iterator();										// can be used listIterator second m
 	  while(it.hasNext()) {
 		System.out.println(it.next());
 	}

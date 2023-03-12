@@ -7,9 +7,6 @@ public static void main(String[] args) throws ExceptionAccount {
 
 	d.setBalance(10000);
 	System.out.println(d.deposit(500));
-	d.withdrawal(10000);
-	
-
-	
+	d.withdrawal(10000);	
 }
 }

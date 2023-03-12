@@ -1,6 +1,7 @@
 package in.co.collectionframework;
 
 import java.util.ArrayList;
+import java.util.Collections;
 public class CI {
 	public static void main(String[] args) {
 		ArrayList s = new ArrayList();
@@ -19,5 +20,6 @@ public class CI {
 	System.out.println(s2);
 	System.out.println(s2.addAll(s));
 	System.out.println(s2);
+	Collections.reverse(s2);
 	}
 }

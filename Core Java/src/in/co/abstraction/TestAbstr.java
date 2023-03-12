@@ -7,7 +7,7 @@ public static void main(String[] args) {
 																	// so we made child class object.
 	a.setLength(40);
 	a.setWidth(10);
-	a.area();
+
 	System.out.println(a.getlength());
 	System.out.println(a.getWidth());
 	System.out.println(a.area());

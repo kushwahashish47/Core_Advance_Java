@@ -11,5 +11,4 @@ public class TestRectangleWConstructor {
 		 System.out.println(r1.getWidth());
 		 System.out.println(r1.area());
 	}
-
 }

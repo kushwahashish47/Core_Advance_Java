@@ -1,4 +1,4 @@
-package in.co.SuperConstr;
+package in.co.superconstr;
 
 public class Test {
 	public static void main(String[] args) {

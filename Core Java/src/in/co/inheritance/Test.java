@@ -1,7 +1,7 @@
 package in.co.inheritance;
 
 public class Test {							
-	public static void main(String[] args) {		
+	public static void main(String[] args) {		// in this we take only circle and shape only to understand the cases.
 		Circle c = new Circle(); 					//case1 when creating child object, we can use: parent methods and child method
 		c.setRadius(10);
 		c.setBorderWidth(5);
@@ -35,7 +35,7 @@ public class Test {
 		System.out.println(i.getBorderWidth());
 		System.out.println(i.area());
 	
-		Circle z = (Circle) new Shape();			// type cast second way of representation.	
+		Circle z = (Circle) new Shape();			// can't do this, which is not correct way of representation.
 
 	}	
 }

@@ -1,4 +1,4 @@
-package in.co.Enumeratn_Vectorr;
+package in.co.enumeratn_vectorr;
 
 import java.util.Enumeration;
 import java.util.Vector;

@@ -1,4 +1,4 @@
-package in.co.SuperConstr;
+package in.co.superconstr;
 
 public class Employee extends Person{
 	
