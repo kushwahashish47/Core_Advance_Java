@@ -12,9 +12,10 @@ public class ArmstrongNumber_4_10 {
     	n = n/10;
     	}
     	if(sum == number) {
-    		System.out.println("Armstrong Number");}
+    		System.out.println("Armstrong Number");
+    		}
     	
-    		else {
+    		else{
     			System.out.println("It's not a Armstrong Number");
     		}
     	}
