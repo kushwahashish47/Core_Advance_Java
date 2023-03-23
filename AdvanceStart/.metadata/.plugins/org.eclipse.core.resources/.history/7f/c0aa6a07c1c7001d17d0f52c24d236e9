@@ -1,0 +1,27 @@
+package com.rays.marksheet;
+
+public class TestMarksheet {
+	public static void main(String[] args) throws Exception {
+		testFindByID();	
+	}
+	private static MarksheetBean testFindByID() throws Exception  {
+		
+		
+		MarksheetBean bean = MarksheetModel.findById(2)	;
+		
+		MarksheetModel model = new MarksheetModel();
+		
+		if (bean!=null) {
+			System.out.println(bean.getId());
+			System.out.println(bean.getRollNo());
+			System.out.println(bean.getName());
+			System.out.println(bean.getPhysics());
+			System.out.println(bean.getChemistry());
+			System.out.println(bean.getMaths());
+			
+		}else {
+			System.out.println("invalid");
+		}
+
+	}
+}

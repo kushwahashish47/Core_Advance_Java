@@ -1,0 +1,10 @@
+package com.rays.marksheet;
+
+public class MarksheetModel {
+	
+	
+	private static void insert() {
+	
+	}
+	
+}

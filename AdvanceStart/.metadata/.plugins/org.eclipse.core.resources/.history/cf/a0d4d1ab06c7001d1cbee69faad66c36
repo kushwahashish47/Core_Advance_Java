@@ -1,0 +1,26 @@
+package com.rays.marksheet;
+
+public class TestMarksheet {
+	public static void main(String[] args) {
+		testInsert();
+		
+		MarksheetBean bean = new MarksheetBean();
+		bean.setId(30);
+		bean.setRollNo(75);
+		bean.setName("Ashish");
+		bean.setPhysics(75);
+		bean.setChemistry(80);
+		bean.setMaths(76);
+		
+		MarksheetModel model = new MarksheetModel();
+		model.equals(bean);
+		
+	}
+
+	private static void testInsert() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}
