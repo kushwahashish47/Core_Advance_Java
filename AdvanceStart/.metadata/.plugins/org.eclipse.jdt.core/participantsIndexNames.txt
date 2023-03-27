@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\li9\Eclipse Workspace\MavenProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2418329822.index
-\MavenProject\src\main\resources
